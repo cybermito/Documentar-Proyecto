@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"yaml.schemas": {
+			"https://squidfunk.github.io/mkdocs-material/schema.json": [
+				"mkdocs.yml",
+				"file:///home/cybermito/Documents/cursos/ClubRoboticaGranada/Documentar-Proyecto/mkdocs.yml"
+			]
+		},
+		"editor.cursorSmoothCaretAnimation": true
+	}
+}
