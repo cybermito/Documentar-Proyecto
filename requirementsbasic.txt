@@ -1,0 +1,6 @@
+wheel
+mkdocs
+click-man
+mkdocs-material
+mkdocs-minify-plugin
+mkdocs-redirects
