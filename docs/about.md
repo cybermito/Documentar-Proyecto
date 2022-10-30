@@ -4,7 +4,7 @@ TODO:
 
 ![Foto de perfil](img/perfil.jpg)
 
-Autor: Cristóbal Contreras Rubio
+Autor: Antonio Mesa Casares
 
 Bio: ...
 
