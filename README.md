@@ -32,7 +32,7 @@ Cadauno de estos pasos viene más detallado en el documento creado por [Fede](ht
 6. Copia de la rama `master` de `plantilla-taller` a la carpeta de tu taller:
       * Carpeta `docs`.
       * Fichero `mkdocs.yml`.
-      ~~* Fichero `Pipfile` (el `Pipfile.lock` no).~~
+      * ~~Fichero `Pipfile` (el `Pipfile.lock` no).~~
       Si usas la alternativa de entorno virtual que he indicado antes **no es necesario copiar** este archivo Pipfile. 
       * Fichero `.gitignore` (si no lo ves activa los ficheros ocultos).
       * Fichero `LICENSE` (si no quieres que tu taller tenga licencia MIT, cambia su contenido, pero por favor, ponle licencia a tu taller).
@@ -44,7 +44,7 @@ Cadauno de estos pasos viene más detallado en el documento creado por [Fede](ht
       python3 -m venv venv
 ```
 
-Instala las siguientes dependencias con el comando *pip* dek siguiente modo.
+Instala las siguientes dependencias con el comando *pip* del siguiente modo.
 
 ```bash
       pip install wheel
