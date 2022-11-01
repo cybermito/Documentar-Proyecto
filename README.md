@@ -25,7 +25,7 @@ Es altamente recomendado que uses un editor de texto tipo [Visual Studio Code](h
 ## Instalación
 
 Esta plantilla está pensada para ser usada en un repositorio, aunque la puedes usar de manera local.
-Cadauno de estos pasos viene más detallado en el documento creado por [Fede](https://fgcoca.github.io/Como-documento/)
+Cada uno de estos pasos viene más detallado en el documento creado por [Fede](https://fgcoca.github.io/Como-documento/).
 
 1. Crea un repositorio en tu Github para tu taller.
 2. A ese repositorio creale una rama que se llame `gh-pages`.
@@ -57,6 +57,11 @@ Instala las siguientes dependencias con el comando *pip* del siguiente modo.
       pip install mkdocs-minify-plugin
       pip install mkdocs-redirects
 
+```
+Tambien puedes instalar todas estas dependencias haciendo uso del archivo requirementsbasic.txt que se acompaña en este repositorio del siguiente modo:
+
+```bash
+      pip install -r requirementsbasic.txt
 ```
 
 Ahora tendrás preparado tu equipo para poder trabajar con la plantilla.
