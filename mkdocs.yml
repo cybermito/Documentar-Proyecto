@@ -1,16 +1,16 @@
 # 1. Información del Taller
-site_name: Taller de prueba - Documentar proyetos con MkDocs
-site_description: Atibot - Taller de prueba - Documentar proyectos
-site_author: Antonio Mesa Casares
-site_url: https://cybermito.github.io/documentarproyecto/
+site_name: Taller de prueba - Documentar proyetos con MkDocs #TODO:
+site_description: Atibot - Taller de prueba - Documentar proyectos #TODO:
+site_author: Antonio Mesa Casares #TODO:
+site_url: https://cybermito.github.io/documentarproyecto/ #TODO:
 
 # 2. Repositorio
-repo_name: cybermito/Documentar-Proyecto
-repo_url: https://github.com/cybermito/Documentar-Proyecto/
+repo_name: cybermito/Documentar-Proyecto #TODO:
+repo_url: https://github.com/cybermito/Documentar-Proyecto/ #TODO:
 edit_uri: ""
 
 # 3. Copyright
-copyright: Copyright &copy; 2022 - Antonio Mesa Casares # TODO:
+copyright: Copyright &copy; 2022 - Antonio Mesa Casares #TODO:
 
 # # 4. RRSS
 # extra:
