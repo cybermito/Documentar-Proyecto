@@ -12,7 +12,7 @@ La guía sigue el mismo esquema que la que tiene publicada [Cristobal](https://g
 
 1. Tienes que tener [Python 3](https://www.python.org/downloads/) instalado.
 2. Tienes que instalar [PIP](https://pip.pypa.io/en/stable/installing/), el gestor de paquetes de Python.
-3. ~~ Instalar [Pipenv](https://pipenv-es.readthedocs.io/es/latest/) ~~ -> ~~`pip install pipenv`~~
+3. * ~~Instalar [Pipenv](https://pipenv-es.readthedocs.io/es/latest/)~~ -> ~~`pip install pipenv`~~
    En mi caso no he instalado pipenv, si no que he utilizado el propio entorno virtual que viene integrado en las últimas versiones de python 3. En los siguientes pasos indicaré los comandos utilizados por mi. [Entornos virtuales y paquetes](https://docs.python.org/es/3/tutorial/venv.html)
 
 Es altamente recomendado que uses un editor de texto tipo [Visual Studio Code](https://code.visualstudio.com/) / [Visual Studio Codium](https://vscodium.com/), [Atom](https://atom.io/), o similares para trabajar. Para esta plantilla se recomienda usar [VSCode](https://github.com/Microsoft/vscode/) o [VSCodium](https://github.com/VSCodium/vscodium) con las siguientes extensiones instaladas:
