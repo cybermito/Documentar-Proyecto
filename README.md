@@ -1,5 +1,6 @@
 # plantilla-taller
-Este contenido es un fork del original de [Cristobal Contreras](https://github.com/lajaqueria/plantilla-taller) con algunas modificaciones. 
+
+Este contenido es un fork del original de [Cristobal Contreras](https://github.com/lajaqueria/plantilla-taller) con algunas modificaciones.
 
 Esta es una plantilla para usar en los talleres de [Espacio Maker de Atigra](https://atigra.es), además de realizar algún documento de instrucciones y anotaciones. Está hecha con [MKDocs](https://www.mkdocs.org/) y usando el tema [Material Design](https://squidfunk.github.io/mkdocs-material/) (es muy completo y además se ve bien en móviles).
 
@@ -31,12 +32,12 @@ Cada uno de estos pasos viene más detallado en el documento creado por [Fede](h
 2. A ese repositorio creale una rama que se llame `gh-pages`.
 3. En la sección **Settings** de tu repositorio, vete la parte de **Github Pages** y habilita la opción de usar la rama **gh-pages**.
 4. Descarga / clona tu repo en tu pc y recuerda que todo el rato vamos a trabajar en la rama `master`.
-5. Descarga / clona esta plantilla, [plantilla-taller](https://github.com/LaJaqueria/plantilla-taller), en tu ordenador. En otro directorio que no sea donde estás trabajando. 
+5. Descarga / clona esta plantilla, [plantilla-taller](https://github.com/LaJaqueria/plantilla-taller), en tu ordenador. En otro directorio que no sea donde estás trabajando.
 6. Copia de la rama `master` de `plantilla-taller` a la carpeta de tu taller:
       * Carpeta `docs`.
       * Fichero `mkdocs.yml`.
       * ~~Fichero `Pipfile` (el `Pipfile.lock` no).~~
-      Si usas la alternativa de entorno virtual que he indicado antes **no es necesario copiar** este archivo Pipfile. 
+      Si usas la alternativa de entorno virtual que he indicado antes **no es necesario copiar** este archivo Pipfile.
       * Fichero `.gitignore` (si no lo ves activa los ficheros ocultos).
       * Fichero `LICENSE` (si no quieres que tu taller tenga licencia MIT, cambia su contenido, pero por favor, ponle licencia a tu taller).
       * Es **importante que** la carpeta `.git` **no la copies** bajo ningún concepto.
@@ -58,6 +59,7 @@ Instala las siguientes dependencias con el comando *pip* del siguiente modo.
       pip install mkdocs-redirects
 
 ```
+
 Tambien puedes instalar todas estas dependencias haciendo uso del archivo requirementsbasic.txt que se acompaña en este repositorio del siguiente modo:
 
 ```bash
@@ -85,3 +87,17 @@ Ahora en tu navegador podrás ver como va quedando tu taller en la web [http://1
 Una vez abres el taller en la web, verás que en la página principal o home, tienes una lista de tareas. Esta página se corresponde al fichero `docs/index.html`. Ve siguiendo la lista de tareas y tendrás tu taller funcionando.
 
 Como vereis son solo unas pocas modificaciones con respecto a la parte del entorno virtual de python, por lo demás todo sigue sin modificaciones.
+
+Nota: Si se quiere previsualizar los archivos Markdown en VSCode solamente hay que pulsar la combinación de teclas
+
+```bash
+      Crtl + Shift + V
+```
+
+Y para verlo en doble ventana pulsar posteriormente la combinación
+
+```bash
+      Crtl+K V
+```
+
+En este [link](https://code.visualstudio.com/Docs/languages/markdown#_markdown-preview) viene explicado el funcionamiento.
